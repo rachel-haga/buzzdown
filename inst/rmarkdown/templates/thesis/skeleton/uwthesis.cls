@@ -896,6 +896,10 @@
 \RequirePackage[tight,nice]{units}
 \RequirePackage{verbatim}
 \setcounter{tocdepth}{2}
+% controls depth of numbering in the table of contents (toc):
+% 0 = chapter => only chapters are numbered
+% 1 = section => chapters and sections are numbered
+% 2 = subsection  => chapters, sections and subsection are numbered
 
  \RequirePackage{url}
  \usepackage[titles]{tocloft}
