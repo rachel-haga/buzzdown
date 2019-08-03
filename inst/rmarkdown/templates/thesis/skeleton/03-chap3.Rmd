@@ -117,7 +117,7 @@ You might want to footnote something. ^[footnote text] The footnote will be in a
 
 The [bookdown documentation](https://bookdown.org/yihui/bookdown/cross-references.html) is an excellent source for learning how to cross-reference in a bookdown project such as a huskydown document. Here we only cover the most common uses for a typical thesis. If you want something more complex or fancy, please refer to the bookdown documentation and seek help from the developers of that package. 
 
-By default, all of your chapter and section headers will get an auto-generated ID label For example, e.g., `# Chapter 1` will have an auto-generated ID `chapter-1`. Note that the ID label is all lower case, and has no spaces. Then in your text you can reference chapter one in your Rmd file like this: 'as discussed in Chapter `\@ref(chapter-1)`', which will print as 'as discussed in Chapter 1'
+By default, all of your chapter and section headers will get an auto-generated ID label For example, e.g., `# Chapter 1` will have an auto-generated ID `chapter-1`. Note that the ID label is all lower case, and has no spaces. If you have any kind of punctuation in your header, such as a colon (:), it will not appear in the ID label. Then in your text you can reference chapter one in your Rmd file like this: 'as discussed in Chapter `\@ref(chapter-1)`', which will print as 'as discussed in Chapter 1'
 
 We strongly recommend that you to manually assign ID labels to your chapter header to make it easy to cross-reference. For example, at the top of the Rmd file for this chapter, you can see:
 
