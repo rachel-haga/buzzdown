@@ -13,7 +13,7 @@
 #' @import bookdown
 #' @examples
 #' \dontrun{
-#'  output: huskydown::thesis_pdf
+#'  output: buzzdown::thesis_pdf
 #' }
 thesis_pdf <- function(toc = TRUE, toc_depth = 3, highlight = "default", ...){
 
@@ -48,7 +48,7 @@ thesis_pdf <- function(toc = TRUE, toc_depth = 3, highlight = "default", ...){
 #' @import bookdown
 #' @examples
 #' \dontrun{
-#'  output: huskydown::thesis_gitbook
+#'  output: buzzdown::thesis_gitbook
 #' }
 thesis_gitbook <- function(...){
 
@@ -80,7 +80,7 @@ thesis_gitbook <- function(...){
 #' the Reed Senior Thesis Word template
 #' @examples
 #' \dontrun{
-#'  output: huskydown::thesis_word
+#'  output: buzzdown::thesis_word
 #' }
 thesis_word <- function(...){
 
@@ -103,9 +103,9 @@ thesis_word <- function(...){
 #' @import bookdown
 #' @export
 #' @return A ebook version of the thesis
-#' @examples
+#' @exampless
 #' \dontrun{
-#'  output: huskydown::thesis_epub
+#'  output: buzzdown::thesis_epub
 #' }
 thesis_epub <- function(...){
 
